@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    
+    <TheHeader></TheHeader>
+    <TheMain></TheMain>
   </div>
 </template>
 
 <script>
 
 
+import TheHeader from "./components/TheHeader.vue"
+import TheMain from "./components/TheMain.vue"
+
 export default {
   name: 'App',
   components: {
-   
-  }
+    TheHeader,
+    TheMain
+}
 }
 </script>
 
