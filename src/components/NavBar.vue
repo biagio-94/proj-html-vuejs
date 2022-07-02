@@ -47,8 +47,10 @@ export default {
 };
 </script>
 
-<style lang="scss">
-/* .my-padding{
-        padding-left: 28rem;
-    } */
+<style lang="scss" >
+.my-padding{
+        padding-left: 6rem;
+    }
+    
+    
 </style>

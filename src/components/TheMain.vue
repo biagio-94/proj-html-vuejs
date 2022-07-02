@@ -1,6 +1,7 @@
 <template>
   <div>
     <JumboTroneSlider></JumboTroneSlider>
+    <!-- agiungo section oresentazione "WHO WE ARE ECC.." -->
     <div class="container">
       <div class="row">
         <div v-for="card in simpleCardData" :key="card.title" class="col">
@@ -9,8 +10,12 @@
       </div>
     </div>
     <JumboCountdown></JumboCountdown>
+    <SpeakerCarousel></SpeakerCarousel>
     <JumboLocation></JumboLocation>
     <JumboTickets></JumboTickets>
+    <MapsContent></MapsContent>
+    <SponsorsComponent></SponsorsComponent>
+    <TheFooter></TheFooter>
   </div>
 </template>
 
@@ -20,6 +25,11 @@ import JumboCountdown from "./JumboCountdown.vue";
 import JumboLocation from "./JumboLocation.vue";
 import JumboTickets from "./JumboTickets.vue";
 import SimpleCard from "./SimpleCard.vue";
+import SpeakerCarousel from "./SpeakerCarousel.vue";
+import SponsorsComponent from "./SponsorsComponent.vue";
+import TheFooter from "./TheFooter.vue";
+import MapsContent from "./MapsContent.vue";
+
 export default {
   components: {
     JumboTroneSlider,
@@ -27,7 +37,11 @@ export default {
     JumboLocation,
     JumboTickets,
     SimpleCard,
-  },
+    SpeakerCarousel,
+    SponsorsComponent,
+    TheFooter,
+    MapsContent
+},
   data() {
     return {
       simpleCardData: [
@@ -38,13 +52,13 @@ export default {
           icon:"fa-trophy"
         },
         {
-          title: "WHO WE ARE",
+          title: "WHAT WE DO",
           description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate accusantium illo, possimus.",
           link: "Learn More",
           icon:"fa-bolt"
         },
         {
-          title: "WHO WE ARE",
+          title: "WHY US?",
           description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate accusantium illo, possimus.",
           link: "Learn More",
           icon:"fa-question"
