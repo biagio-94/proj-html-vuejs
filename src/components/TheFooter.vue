@@ -1,5 +1,5 @@
 <template>
-  <div class="footer-bg py-5">
+  <div class="footer-bg pt-5">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -47,6 +47,15 @@
         </div>
       </div>
     </div>
+    <div class="lastfooter">
+      <div class="container ">
+      <div class="d-flex justify-content-between py-4 align-item-center">
+        <spam><i class="fa-solid fa-copyright"></i> Copyright GoodLayers, All Right Reserved</spam>
+        <spam>About Us | Accomodation | Call For Paper | Contact Us</spam>
+      </div>
+    </div>
+    </div>
+    
   </div>
 </template>
 <script>
@@ -59,6 +68,7 @@ export default {
 <style lang="scss" scoped>
 .footer-bg {
   background-color: #212121;
+  
 }
 .container {
   color: white;
@@ -67,8 +77,9 @@ export default {
     font-size: 1.2rem;
   }
   p,
-  span {
+  span,i {
     font-size: 0.8rem;
+    ;
   }
   ul {
     padding-inline-start: 10px;
@@ -85,6 +96,8 @@ export default {
   .my-gap {
     row-gap: 1rem;
   }
-  
+}
+.lastfooter {
+  background-color: #161616;
 }
 </style>
