@@ -27,7 +27,7 @@ export default {
         {
           title: "Four Day Access",
           subtitle:"750.00 USD",
-          featured:false,
+          featured:true,
           packageDescription:["Four Day Access","Cofee Break","Lunch(International)","Document Sheet","100USD Voucher For Next Event"]
         },
         {

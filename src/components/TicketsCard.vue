@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="card">
-      <div class="featured text-center">
+      <div v-if="ticketsProp.featured" class="text-center featured" >
         <span class="text-center">FEATURED!</span>
       </div>
       <div class="card-body">
