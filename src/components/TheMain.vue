@@ -12,6 +12,7 @@
     <JumboCountdown></JumboCountdown>
     <SpeakerCarousel></SpeakerCarousel>
     <JumboLocation></JumboLocation>
+    <RecentNews></RecentNews>
     <JumboTickets></JumboTickets>
     <MapsContent></MapsContent>
     <SponsorsComponent></SponsorsComponent>
@@ -29,6 +30,7 @@ import SpeakerCarousel from "./SpeakerCarousel.vue";
 import SponsorsComponent from "./SponsorsComponent.vue";
 import TheFooter from "./TheFooter.vue";
 import MapsContent from "./MapsContent.vue";
+import RecentNews from "./RecentNews.vue";
 
 export default {
   components: {
@@ -40,7 +42,8 @@ export default {
     SpeakerCarousel,
     SponsorsComponent,
     TheFooter,
-    MapsContent
+    MapsContent,
+    RecentNews
 },
   data() {
     return {
