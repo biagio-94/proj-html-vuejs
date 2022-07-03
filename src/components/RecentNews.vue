@@ -1,7 +1,7 @@
 <template>
   <div class="py-4">
     <div class="container">
-      <div class="d-flex justify-content-between">
+      <div class="d-flex justify-content-between px-3">
         <h2>RECENT NEWS</h2>
         <span>Read All News</span>
       </div>

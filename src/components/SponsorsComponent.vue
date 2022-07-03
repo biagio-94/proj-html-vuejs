@@ -2,7 +2,7 @@
   <div class="background">
     <div class="container py-5 text-center">
       <div class="w-25 m-auto">
-        <h2><strong>Sponsors</strong></h2>
+        <h2><strong>SPONSORS</strong></h2>
         <h6>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Elite!
         </h6>
@@ -42,6 +42,9 @@ export default {
       color: black;
         h6{
             color: #9998b8;
+        }
+        img{
+          width: 90%;
         }
     }
 </style>
