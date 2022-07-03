@@ -6,9 +6,9 @@
       </div>
       <div class="card-body">
         <div class="top-card py-3">
-          <h5 class="card-title">{{ ticketsProp.title }}</h5>
+          <h5 class="card-title"><strong>{{ ticketsProp.title }}</strong> </h5>
           <h6 class="card-subtitle mb-2 text-muted">
-            {{ ticketsProp.subtitle }}
+            <strong>{{ ticketsProp.subtitle }}</strong> 
           </h6>
         </div>
         <div class="py-4">
@@ -23,7 +23,7 @@
         
       </div>
     </div>
-    <a href="#" class="btn btn-primary w-100">BOOK NOW</a>
+    <a href="#" class="btn btn-primary w-100 py-2">BOOK NOW</a>
   </div>
 </template>
 
@@ -45,6 +45,9 @@ h6 {
   width: 100%;
   border-radius: 0;
   position: relative;
+}
+a{
+  font-size: .7rem;
 }
 .card-body {
   background-color: #f9f9f9;

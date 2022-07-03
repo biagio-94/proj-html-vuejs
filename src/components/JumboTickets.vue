@@ -1,7 +1,7 @@
 <template>
   <div class="jumbotroneTicket py-5">
     <div class="container text-center">
-      <h2><strong>TICKETS</strong></h2>
+      <h2 class="pb-5 mt-4"><strong>TICKETS</strong></h2>
       <div class="row">
         <div v-for="ticket in tickets" :key="ticket.title" class="col">
           <TicketsCard :tickets-prop="ticket"></TicketsCard>

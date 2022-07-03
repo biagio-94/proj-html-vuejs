@@ -77,7 +77,7 @@ export default {
 .jumbotroneCountdown {
   background-image: url("../assets/background/coutdown-bg1.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: inherit;
 }
 .jumbotroneLocation {
   background-image: url("../assets/background/location-bg.jpg");
@@ -118,6 +118,6 @@ export default {
 .jumbotroneTicket {
   background-image: url("../assets/background/ticket-bg.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: inherit;
 }
 </style>

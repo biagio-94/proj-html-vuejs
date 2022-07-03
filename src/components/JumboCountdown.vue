@@ -2,8 +2,8 @@
     <div class="jumbotroneCountdown py-5">
       <div class="container text-center">
         <TheTimer></TheTimer>
-        <h3>SUBSRIBE FOR UPDATE</h3>
-        <div class="input-group mb-3 w-50 m-auto">
+        <h3 class="mt-3 py-4">SUBSRIBE FOR UPDATE</h3>
+        <div class="input-group mb-3 w-50 m-auto py-3">
           <input
             type="text"
             class="form-control"
