@@ -4,12 +4,12 @@
       <div class="d-flex justify-content-between py-5">
         <h2>PROGRAM</h2>
         <div class="flex-grow-1 ps-4 ms-5">
-          <span
+          <span class="greyspan"
             >This conference run through 4 days from 23-26 May 2016. <br />We
             also provide free lunch and cofee break in each day.</span
           >
         </div>
-        <span class="orangespan">View Full Program</span>
+        <span class="orange-color">View Full Program</span>
       </div>
       <div class="row">
         <div
@@ -19,7 +19,7 @@
           :class="day.classDark ? 'darker-color' : ``" 
           @click="changeDay(i)"
         >
-          <h6>DAY {{ i + 1 }}</h6>
+          <h6><strong>DAY {{ i + 1 }}</strong> </h6>
           <span>2{{ i + 2 }} May 2016</span>
         </div>
         <div class="col-2 days-class"></div>
@@ -33,14 +33,14 @@
             <h6>
               <i class="me-3 fa-solid fa-paper-plane"></i>{{ currentDay.room }}
             </h6>
-            <h6>
+            <h6 class="orange-color">
               <i class="me-3 fa-solid fa-user"></i>{{ currentDay.speaker }}
             </h6>
           </div>
           <div class="right ps-5">
-            <h5>{{ currentDay.title }}</h5>
+            <h5 class="text-black">{{ currentDay.title }}</h5>
             <h6 class="py-4">{{ currentDay.description }}</h6>
-            <img :src="`img/speakers/${currentDay.speaker_img}`" alt="" />
+            <img :src="`img/speakers/${currentDay.speaker_img}`" alt="" width="50px"/>
           </div>
         </div>
       </div>
@@ -134,12 +134,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.orange-color{
+    color:#f62b0a!important
+}
 .container {
   color: black;
   .row {
     color: white;
     padding: 0 0.72rem;
   }
+  .greyspan{
+    color:#8b8b8b!important
+  }
+  
   .darker-color {
     background-color: #c72b11 !important;
   }
@@ -156,6 +163,9 @@ h2 {
   width: 100%;
   .left {
     width: 30%;
+  }
+  i,span,h5,h6{
+    color:#8b8b8b
   }
 }
 </style>
