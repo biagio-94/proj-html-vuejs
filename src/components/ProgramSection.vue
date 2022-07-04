@@ -20,7 +20,7 @@
           @click="changeDay(i)"
         >
           <h6><strong>DAY {{ i + 1 }}</strong> </h6>
-          <span>2{{ i + 2 }} May 2016</span>
+          <span style="font-size:.8rem;">2{{ i + 2 }} May 2016</span>
         </div>
         <div class="col-2 days-class"></div>
       </div>
