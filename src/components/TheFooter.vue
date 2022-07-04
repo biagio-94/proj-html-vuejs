@@ -50,8 +50,8 @@
     <div class="lastfooter">
       <div class="container ">
       <div class="d-flex justify-content-between py-4 align-item-center">
-        <spam><i class="fa-solid fa-copyright"></i> Copyright GoodLayers, All Right Reserved</spam>
-        <spam>About Us | Accomodation | Call For Paper | Contact Us</spam>
+        <span><i class="fa-solid fa-copyright"></i> Copyright GoodLayers, All Right Reserved</span>
+        <span>About Us | Accomodation | Call For Paper | Contact Us</span>
       </div>
     </div>
     </div>
