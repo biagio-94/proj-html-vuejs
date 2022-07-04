@@ -11,6 +11,7 @@
     </div>
     <JumboCountdown></JumboCountdown>
     <SpeakerCarousel></SpeakerCarousel>
+    <ProgramSection></ProgramSection>
     <MapsContent></MapsContent>
     <JumboLocation></JumboLocation>
     <RecentNews></RecentNews>
@@ -33,6 +34,7 @@ import TheFooter from "./TheFooter.vue";
 import MapsContent from "./MapsContent.vue";
 import RecentNews from "./RecentNews.vue";
 import TwitterSection from "./TwitterSection.vue";
+import ProgramSection from "./ProgramSection.vue";
 
 export default {
   components: {
@@ -46,7 +48,8 @@ export default {
     TheFooter,
     MapsContent,
     RecentNews,
-    TwitterSection
+    TwitterSection,
+    ProgramSection
 },
   data() {
     return {
