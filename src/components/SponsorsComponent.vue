@@ -1,10 +1,10 @@
 <template>
-  <div class="background">
-    <div class="container py-5 text-center">
-      <div class="w-25 m-auto">
-        <h2><strong>SPONSORS</strong></h2>
-        <h6>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Elite!
+  <div class="background py-5">
+    <div class="container py-5  text-center">
+      <div style="width:30%;" class=" m-auto mb-5">
+        <h2 class="pb-3"><strong>SPONSORS</strong></h2>
+        <h6 >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Elite!sit amet consectetur
         </h6>
       </div>
       <div class="row">
@@ -45,6 +45,9 @@ export default {
         }
         img{
           width: 90%;
+        }
+        h2{
+          font-size: 2.5rem;
         }
     }
 </style>

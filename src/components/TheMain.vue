@@ -11,11 +11,11 @@
     </div>
     <JumboCountdown></JumboCountdown>
     <SpeakerCarousel></SpeakerCarousel>
+    <MapsContent></MapsContent>
     <JumboLocation></JumboLocation>
     <RecentNews></RecentNews>
     <JumboTickets></JumboTickets>
     <TwitterSection></TwitterSection>
-    <MapsContent></MapsContent>
     <SponsorsComponent></SponsorsComponent>
     <TheFooter></TheFooter>
   </div>
