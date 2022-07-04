@@ -15,10 +15,10 @@
         <div
           v-for="(day, i) in daysProgram"
           :key="day + i"
-          class="col-2 days-class"
+          class="col-2 days-class py-3 ps-4"
           @click="changeDay(i)"
         >
-          <h4>DAY {{ i + 1 }}</h4>
+          <h6>DAY {{ i + 1 }}</h6>
           <span>2{{ i + 2 }} May 2016</span>
         </div>
         <div class="col-2 days-class"></div>
@@ -30,8 +30,8 @@
             <h5>{{ currentDay.room }}</h5>
             <h5>{{ currentDay.speaker }}</h5>
           </div>
-          <div class="right">
-            <h2>{{ currentDay.title }}</h2>
+          <div class="right ps-5">
+            <h5>{{ currentDay.title }}</h5>
             <h6>{{ currentDay.description }}</h6>
           </div>
         </div>
@@ -112,6 +112,7 @@ export default {
   color: black;
   .row{
     color: white;
+    padding: 0 0.72rem;
   }
 }
 h2 {
@@ -119,7 +120,7 @@ h2 {
 }
 .days-class{
     background-color:#f62b0a ;
-    border-right: 1px solid lightgray;
+    border-right: 1px solid #c72b11;
 }
 .my-card {
   background-color: #f7f7f7;
