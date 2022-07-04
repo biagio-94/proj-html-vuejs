@@ -14,6 +14,7 @@
     <JumboLocation></JumboLocation>
     <RecentNews></RecentNews>
     <JumboTickets></JumboTickets>
+    <TwitterSection></TwitterSection>
     <MapsContent></MapsContent>
     <SponsorsComponent></SponsorsComponent>
     <TheFooter></TheFooter>
@@ -31,6 +32,7 @@ import SponsorsComponent from "./SponsorsComponent.vue";
 import TheFooter from "./TheFooter.vue";
 import MapsContent from "./MapsContent.vue";
 import RecentNews from "./RecentNews.vue";
+import TwitterSection from "./TwitterSection.vue";
 
 export default {
   components: {
@@ -43,7 +45,8 @@ export default {
     SponsorsComponent,
     TheFooter,
     MapsContent,
-    RecentNews
+    RecentNews,
+    TwitterSection
 },
   data() {
     return {
