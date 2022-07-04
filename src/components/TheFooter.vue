@@ -1,9 +1,9 @@
 <template>
   <div class="footer-bg pt-5">
     <div class="container">
-      <div class="row">
+      <div class="row py-3 mb-5">
         <div class="col">
-          <h6>ABOUT US</h6>
+          <h6 class="mb-4">ABOUT US</h6>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium.
@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="col">
-          <h6>RECENT NEWS</h6>
+          <h6 class="mb-4">RECENT NEWS</h6>
           <ul>
             <li><a href="#">> Sed ut perspiciatis unde omnis</a></li>
             <li><a href="#">> Ut enim ad minima veniam</a></li>
@@ -28,7 +28,7 @@
           </ul>
         </div>
         <div class="col">
-          <h6>GET YOUR SEAT!</h6>
+          <h6 class="mb-4">GET YOUR SEAT!</h6>
           <p>
             Book your seat before is too late. <br />We provide ariety of ticked
             options.
@@ -38,10 +38,10 @@
           </button>
         </div>
         <div class="col">
-          <h6>GALLERY FROM LAST YEAR</h6>
-          <div class="row row-cols-4 my-gap">
-            <div v-for="i in 12" :key="i" class="col">
-              <img :src="`img/footerIMG/footer-${i}.jpg`" alt="" />
+          <h6 class="mb-4">GALLERY FROM LAST YEAR</h6>
+          <div class="d-flex flex-wrap  my-gap">
+            <div v-for="i in 12" :key="i" >
+              <img :src="`img/footerIMG/footer-${i}.jpg`" alt="" width="60px"/>
             </div>
           </div>
         </div>
@@ -90,11 +90,13 @@ export default {
       font-size: 0.8rem;
     }
   }
-  img {
-    width: 100%;
-  }
+  
   .my-gap {
-    row-gap: 1rem;
+    row-gap: .6rem;
+    column-gap: .6rem;
+  }
+  .col{
+    padding: 0 0.7rem !important;
   }
 }
 .lastfooter {
