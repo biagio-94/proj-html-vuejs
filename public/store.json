@@ -1,0 +1,154 @@
+{
+    "simpleCardData":[
+        {
+          "title": "WHO WE ARE",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate accusantium illo, possimus.",
+          "link": "Learn More",
+          "icon": "fa-trophy"
+        },
+        {
+          "title": "WHAT WE DO",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate accusantium illo, possimus.",
+          "link": "Learn More",
+          "icon": "fa-bolt"
+        },
+        {
+          "title": "WHY US?",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cupiditate accusantium illo, possimus.",
+          "link": "Learn More",
+          "icon": "fa-question"
+        }
+      ],
+    "newses": [
+        {
+            "img": "speaker-6.jpg",
+            "description": {
+                "name": "SEDIAL EIUSMOD TEMPOR",
+                "job": "03 Dec 2013  /  0 Comments",
+                "theme": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusamus repudiandae cumque amet, enim tempore sunt. Fugiat, expedita esse sequi pariatur nulla repudiand...",
+                "link": "Read More"
+            }
+        },
+        {
+            "img": "speaker-5.jpg",
+            "description": {
+                "name": "DONEC LUCTUS IMPERDIET",
+                "job": "03 Dec 2013  /  2 Comments",
+                "theme": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusamus repudiandae cumque amet, enim tempore sunt. Fugiat, expedita esse sequi pariatur nulla repudiand...",
+                "link": "Read More"
+            }
+        },
+        {
+            "img": "speaker-4.jpg",
+            "description": {
+                "name": "MAGNA PARS STUDIORUM",
+                "job": "03 Dec 2013  /  2 Comments",
+                "theme": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusamus repudiandae cumque amet, enim tempore sunt. Fugiat, expedita esse sequi pariatur nulla repudiand...",
+                "link": "Read More"
+            }
+        }
+    ],
+    "sponsorImg": [
+        "img/banner/banner-1.jpg",
+        "img/banner/banner-2.jpg",
+        "img/banner/banner-3.jpg",
+        "img/banner/banner-4.jpg",
+        "img/banner/banner-5.jpg",
+        "img/banner/banner-6.jpg"
+    ],
+    "daysProgram":[
+        {
+          "classDark": true,
+          "data_time": "09:00-10:30",
+          "room": "Room A",
+          "speaker": "Laurence Francis",
+          "speaker_img": "speaker-1-150x150.jpg",
+          "title": "WELCOMING AND INTRODUCTION",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi cumque at voluptatem totam accusamus aperiam itaque? Vitae, illo beatae. Dolores excepturi corrupti laudantium reprehenderit, commodi repellat veritatis iure ex."
+        },
+        {
+          "classDark": false,
+          "data_time": "10:00-11:30",
+          "room": "Room B",
+          "speaker": "Patrick Spencer",
+          "speaker_img": "speaker-2-150x150.jpg",
+          "title": "SOCIAL NETWORK BASIS",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi cumque at voluptatem totam accusamus aperiam itaque? Vitae, illo beatae. Dolores excepturi corrupti laudantium reprehenderit, commodi repellat veritatis iure ex."
+        },
+        {
+          "classDark": false,
+          "data_time": "11:30-13:00",
+          "room": "Room C",
+          "speaker": "Michael Dover",
+          "speaker_img": "speaker-3-150x150.jpg",
+          "title": "FULL IMMERSION INSTAGRAM",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi cumque at voluptatem totam accusamus aperiam itaque? Vitae, illo beatae. Dolores excepturi corrupti laudantium reprehenderit, commodi repellat veritatis iure ex."
+        },
+        {
+          "classDark": false,
+          "data_time": "09:30-11:00",
+          "room": "Room AF",
+          "speaker": "Angelina Holy ",
+          "speaker_img": "speaker-4-150x150.jpg",
+          "title": "TIK TOK POLICIES",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi cumque at voluptatem totam accusamus aperiam itaque? Vitae, illo beatae. Dolores excepturi corrupti laudantium reprehenderit, commodi repellat veritatis iure ex."
+        },
+        {
+          "classDark": false,
+          "data_time": "09:00-10:30",
+          "room": "Room BA",
+          "speaker": "Biagio Ferro",
+          "speaker_img": "speaker-5-150x150.jpg",
+          "title": "NEUTRINI PROPAGATION IN SOIL",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi cumque at voluptatem totam accusamus aperiam itaque? Vitae, illo beatae. Dolores excepturi corrupti laudantium reprehenderit, commodi repellat veritatis iure ex."
+        }
+      ],
+      "navLinks":[
+        "Home",
+        "Pages",
+        "Programs",
+        "Tickets",
+        "Speakers",
+        "Papers",
+        "Blog",
+        "ShortCodes"
+      ],
+      "tickets":[
+        {
+          "title": "One Day Pass",
+          "subtitle": "FREE",
+          "featured": false,
+          "packageDescription": [
+            "One Day Access",
+            "Cofee Break",
+            "Lunch(International)",
+            "Document Sheet",
+            "50USD Voucher For Next Event"
+          ]
+        },
+        {
+          "title": "Four Day Passes",
+          "subtitle": "750.00 USD",
+          "featured": true,
+          "packageDescription": [
+            "Four Day Access",
+            "Cofee Break",
+            "Lunch(International)",
+            "Document Sheet",
+            "100USD Voucher For Next Event"
+          ]
+        },
+        {
+          "title": "Two Day Passes",
+          "subtitle": "580.00 USD",
+          "featured": false,
+          "packageDescription": [
+            "Two Day Access",
+            "Cofee Break",
+            "Lunch(International)",
+            "Document Sheet",
+            "70USD Voucher For Next Event"
+          ]
+        }
+      ]
+}
