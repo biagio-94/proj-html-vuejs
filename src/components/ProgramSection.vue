@@ -24,7 +24,7 @@
         </div>
         <div class="col-2 days-class"></div>
       </div>
-      <div class="">
+      <div class="mb-4">
         <div class="my-card d-flex py-5 px-5">
           <div class="left">
             <h6>

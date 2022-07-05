@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import * as VueGoogleMaps from 'vue2-google-maps'
-
+import "bootstrap"
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyBGMn1KYiSzb002Sx58nSPkTe0oz29ZCu0',

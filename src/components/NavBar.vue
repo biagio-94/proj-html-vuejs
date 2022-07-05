@@ -20,17 +20,20 @@
         >
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
             <li v-for="link in navProp" :key="link" class="nav-item px-3">
-              <a class="nav-link" href="#"
+              <a class="nav-link" :href="`#${link}`"
                 ><strong>{{ link }}</strong></a
               >
             </li>
-            <li class="nav-item px-3">
+            <li class="nav-item px-3 d-none d-lg-block">
               <a class="nav-link" href="#"><strong>I</strong></a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#" @click="toggleSearchbae()"
                 ><strong><i class="fa-solid fa-magnifying-glass"></i></strong
               ></a>
+            </li>
+            <li v-if="isHidden">
+              <input type="text" placeholder="search and press enter" v-bind="searchtext" @keyup.enter="searchonPage()">
             </li>
           </ul>
         </div>
@@ -41,16 +44,36 @@
 
 <script>
 export default {
+  data() {
+    return {
+      searchtext:"",
+      isHidden:false
+    }
+  },
   props: {
     navProp: Array,
   },
+  methods:{
+    toggleSearchbae(){
+      if(this.isHidden)
+      {
+        this.isHidden=false
+      }
+      else{
+        this.isHidden=true
+      }
+    },
+    searchonPage(){
+      console.log(this.searchtext);
+    }
+  }
 };
 </script>
 
 <style lang="scss" scoped>
-.my-padding {
+/* .my-padding {
   padding-left: 6rem;
-}
+} */
 a{
   font-size: .8rem!important;
   border: 2px solid white;

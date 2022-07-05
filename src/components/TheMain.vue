@@ -1,6 +1,6 @@
 <template>
   <div>
-    <JumboTroneSlider></JumboTroneSlider>
+    <JumboTroneSlider id="Pages"></JumboTroneSlider>
     <!-- agiungo section oresentazione "WHO WE ARE ECC.." -->
     <div class="container">
       <div class="row">
@@ -9,16 +9,16 @@
         </div>
       </div>
     </div>
-    <JumboCountdown></JumboCountdown>
-    <SpeakerCarousel></SpeakerCarousel>
-    <ProgramSection></ProgramSection>
+    <JumboCountdown ></JumboCountdown>
+    <SpeakerCarousel id="Speakers"></SpeakerCarousel>
+    <ProgramSection id="Programs"></ProgramSection>
     <MapsContent></MapsContent>
     <JumboLocation></JumboLocation>
     <RecentNews></RecentNews>
-    <JumboTickets></JumboTickets>
-    <TwitterSection></TwitterSection>
+    <JumboTickets id="Tickets"></JumboTickets>
+    <TwitterSection id="Blog"></TwitterSection>
     <SponsorsComponent></SponsorsComponent>
-    <TheFooter></TheFooter>
+    <TheFooter id="ShortCodes"></TheFooter>
   </div>
 </template>
 

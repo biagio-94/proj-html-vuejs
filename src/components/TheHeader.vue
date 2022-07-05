@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div >
         <NavBar :nav-prop="navLinks"></NavBar>
     </div>
 </template>
