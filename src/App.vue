@@ -21,9 +21,10 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+/* @import "../node_modules/bootstrap/scss/bootstrap.scss"; */
+@import "./assets/scss/main.scss";
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;

@@ -18,7 +18,7 @@
           class="collapse navbar-collapse my-padding"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
             <li v-for="link in navProp" :key="link" class="nav-item px-3">
               <a class="nav-link" href="#"
                 ><strong>{{ link }}</strong></a
@@ -48,9 +48,30 @@ export default {
 </script>
 
 <style lang="scss" >
-.my-padding{
-        padding-left: 6rem;
+.my-padding {
+  padding-left: 6rem;
+}
+a{
+  font-size: .8rem!important;
+  border: 2px solid white;
+}
+li {
+  &:focus {
+    border-bottom: 1px solid var(--bs-primary);
+  }
+  a {
+    &:hover {
+      color: var(--bs-primary) !important;
     }
+  }
+}
+li {
+  a:focus {
+    
+      color: var(--bs-primary)!important;
     
     
+    border-bottom: 2px solid var(--bs-primary);
+  }
+}
 </style>

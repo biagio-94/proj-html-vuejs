@@ -2,7 +2,7 @@
     <div class="jumbotroneCountdown py-5">
       <div class="container text-center">
         <TheTimer></TheTimer>
-        <h3 class="mt-3 py-4">SUBSRIBE FOR UPDATE</h3>
+        <h4 class="mt-3 py-4 text-black fw-semibold">SUBSRIBE FOR UPDATES</h4>
         <div class="input-group mb-3 w-50 m-auto py-3">
           <input
             type="text"
@@ -11,8 +11,8 @@
             aria-label="Please fill your email"
             aria-describedby="button-addon2"
           />
-          <button class="btn btn-danger ms-2" type="button" id="button-addon2">
-            SUBSCRIBE
+          <button class="btn btn-primary ms-2 py-2 px-4 rounded-0" type="button" id="button-addon2">
+            <span class="text-white fw-semibold">SUBSCRIBE</span>
           </button>
         </div>
       </div>

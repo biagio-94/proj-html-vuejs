@@ -34,7 +34,8 @@ export default {
     border-color: white!important;
     a {
     text-decoration: none;
-    color: #ff4c2f;
+    color: var(--bs-primary);
+    font-style: italic;
   }
   p{
     color:#979ca9;

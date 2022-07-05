@@ -1,7 +1,7 @@
 <template>
     <div class="jumbotroneSlider py-5">
       <div class="container text-center py-5">
-        <h2><strong>CONFERENCE ON</strong></h2>
+        <h2 class="fw-lighter">CONFERENCE ON</h2>
         <h1><strong>SOCIAL NETWORKS</strong></h1>
         <div class="w-50 m-auto my-border-top">
           <div class="row py-3">

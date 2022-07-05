@@ -98,14 +98,15 @@ export default {
   height: 150px;
   aspect-ratio: 1;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.6;
   border-radius: 5px;
 }
 span {
-  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem!important;
   font-weight: bold;
 }
 .textspan{
-    font-size: 1rem;
+    font-size: .8rem!important;
 }
 </style>
