@@ -19,19 +19,19 @@ export default {
     return {
       tickets: [
         {
-          title: "One Day Access",
+          title: "One Day Pass",
           subtitle:"FREE",
           featured:false,
           packageDescription:["One Day Access","Cofee Break","Lunch(International)","Document Sheet","50USD Voucher For Next Event"]
         }, 
         {
-          title: "Four Day Access",
+          title: "Four Day Passes",
           subtitle:"750.00 USD",
           featured:true,
           packageDescription:["Four Day Access","Cofee Break","Lunch(International)","Document Sheet","100USD Voucher For Next Event"]
         },
         {
-          title: "Two Day Access",
+          title: "Two Day Passes",
           subtitle:"580.00 USD",
           featured:false,
           packageDescription:["Two Day Access","Cofee Break","Lunch(International)","Document Sheet","70USD Voucher For Next Event"]

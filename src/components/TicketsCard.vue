@@ -19,11 +19,15 @@
         >
           {{ feature }}
         </div> 
+        
         </div>
         
       </div>
-    </div>
-    <a href="#" class="btn btn-primary w-100 py-2 text-white fw-bold">BOOK NOW</a>
+     
+      
+    </div >
+    <a  href="#" class="btn btn-primary w-100 py-3 text-white fw-bold">BOOK NOW</a>
+    
   </div>
 </template>
 
@@ -48,7 +52,7 @@ h6 {
   position: relative;
 }
 a{
-  font-size: .7rem;
+  font-size: .9rem;
 }
 .card-body {
   background-color: #f9f9f9;
@@ -76,6 +80,9 @@ a{
     font-size: 0.7rem;
   }
   
+}
+.text-muted{
+  font-family: Arial, Helvetica, sans-serif!important;
 }
 
 </style>
