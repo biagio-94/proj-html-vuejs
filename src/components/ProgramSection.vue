@@ -11,7 +11,7 @@
         </div>
         <span class="orange-color">View Full Program</span>
       </div>
-      <div class="row">
+      <div class="row normalfont">
         <div
           v-for="(day, i) in daysProgram"
           :key="day + i"
@@ -134,6 +134,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.normalfont{
+  font-family: Arial, Helvetica, sans-serif!important;
+}
 .orange-color{
     color:#f62b0a!important
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="container py-5">
     <div class="d-flex justify-content-between px-3">
-      <h2>SPEAKERS</h2>
+      <h2 class="fw-bold">SPEAKERS</h2>
       <div>
         <button class="btn btn-primary text-white me-1" @click="counterBack()">
           &#60;
@@ -142,6 +142,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+
 img {
   width: 100%;
 }
