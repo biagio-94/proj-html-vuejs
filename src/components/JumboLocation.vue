@@ -3,7 +3,7 @@
       <div class="container text-center">
         <h2 class="pt-5"><strong>LOCATION</strong></h2>
         <h3 class="mt-5 pt-2 pb-1"> <strong>GD BUILDING, GRAND CONFERENCE ROOM</strong> </h3>
-        <span><i class="fa-solid fa-paper-plane"></i></span
+        <span><i class="fa-solid fa-paper-plane pe-3"></i></span
         ><span>GD Building, River Mail, New York, USA 8879</span>
         <div class="pt-3 pb-5">
           <a  href="#">Check for accomodation here</a>
@@ -21,7 +21,7 @@
             <div class="col">
               <span
                 ><i class="fa-solid fa-envelope"
-                  ><span class="ms-2">Contact@TheKeynoteTheme.com</span></i
+                  ><span class="ms-2 ">Contact@TheKeynoteTheme.com</span></i
                 ></span
               >
             </div>

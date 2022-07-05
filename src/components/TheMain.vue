@@ -80,8 +80,8 @@ export default {
 
 <style lang="scss">
 .my-border-top {
-  border-top: 4px solid white;
-  border-radius: 4px;
+  border-top: 2px solid white;
+  border-radius: 2px;
 }
 .jumbotroneCountdown {
   background-image: url("../assets/background/coutdown-bg1.jpg");
