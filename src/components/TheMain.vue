@@ -119,10 +119,7 @@ export default {
   span {
     font-weight: bold;
   }
-  .orange-btn {
-    background-color: #f62b0a;
-    color: white;
-  }
+  
 }
 .jumbotroneTicket {
   background-image: url("../assets/background/ticket-bg.jpg");

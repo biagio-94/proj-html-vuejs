@@ -47,7 +47,7 @@ export default {
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped>
 .my-padding {
   padding-left: 6rem;
 }

@@ -11,7 +11,7 @@
             <div class="col"><span>/</span></div>
             <div class="col-3"><span>8SPEAKERS</span></div>
           </div>
-          <a class="btn orange-btn py-2 px-4 mt-4">REGISTER ONLINE</a>
+          <a class="btn btn-primary text-white py-2 px-4 mt-4">REGISTER ONLINE</a>
         </div>
       </div>
     </div>
