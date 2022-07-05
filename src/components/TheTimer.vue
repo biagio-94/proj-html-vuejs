@@ -68,7 +68,7 @@ export default {
   },
   methods: {
     countDown() {
-      let countDown = dayjs("oct 24, 2031 14:13:42");
+      let countDown = dayjs("oct 26, 2031 16:13:42");
 
       setInterval(() => {
         let fff = dayjs();

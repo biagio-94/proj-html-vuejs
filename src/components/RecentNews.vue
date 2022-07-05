@@ -1,8 +1,8 @@
 <template>
   <div class="py-4">
     <div class="container">
-      <div class="d-flex justify-content-between px-3">
-        <h2>RECENT NEWS</h2>
+      <div class="d-flex justify-content-between px-3 py-5">
+        <h3 class="fw-bold">RECENT NEWS</h3>
         <span class="orangespan">Read All News</span>
       </div>
       <div class="row">
@@ -26,7 +26,7 @@
               <p class="card-text pb-3">
                 <strong>{{ speaker.description.theme }}</strong>
               </p>
-              <a href="#" class="card-link ">{{speaker.description.link}} </a>
+              <span class="orangespan">{{speaker.description.link}}</span> 
             </div>
           </div>
         </div>
