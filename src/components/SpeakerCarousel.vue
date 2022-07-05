@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col" v-for="speaker in printArray" :key="speaker.img">
         <div class="card py-5" style="width: 18rem">
-          <div class="card-body">
+          <div class="card-body text-center">
             <div class="card-overlay p-relative">
               <img :src="`img/speakers/${speaker.img}`" alt="" />
               <div class="overlay">
@@ -29,7 +29,7 @@
               </div>
             </div>
 
-            <h6 class="card-title">
+            <h6 class="card-title mt-3">
               <strong>{{ speaker.description.name }}</strong>
             </h6>
 

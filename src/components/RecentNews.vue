@@ -9,7 +9,12 @@
         <div class="col" v-for="(speaker,i) in newses" :key="speaker.img">
           <div class="card py-5" style="width: 18rem">
             <div class="card-body">
-              <img :src="`img/newsImg/news${i+1}.jpg`" alt="" />
+              <div class="mycard-overlay">
+                <img :src="`img/newsImg/news${i+1}.jpg`" alt="" />
+                
+                <div class="myoverlay text-center "><i  class="fa-solid fa-bullhorn"></i><span class="align-middle">STICKY POST</span></div>
+              </div>
+             
 
               <p class="card-text mt-4 pb-2">
                 <strong>{{ speaker.description.job }}</strong>
@@ -21,7 +26,7 @@
               <p class="card-text pb-3">
                 <strong>{{ speaker.description.theme }}</strong>
               </p>
-              <a href="#" class="card-link">{{speaker.description.link}} </a>
+              <a href="#" class="card-link ">{{speaker.description.link}} </a>
             </div>
           </div>
         </div>
@@ -93,5 +98,28 @@ export default {
   .orangespan{
     color: #f62b0a;
   }
+}
+.myoverlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  opacity: 0;
+  background-color: #232323;
+  color: white;
+  i,span{
+    font-size: .7rem;
+    color: white;
+    padding: .5rem .2rem;
+  }
+}
+.mycard-overlay {
+ 
+  position: relative;
+  &:hover .myoverlay {
+    opacity: 1;
+  }
+  
+  
 }
 </style>
